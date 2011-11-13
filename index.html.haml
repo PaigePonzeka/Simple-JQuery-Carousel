@@ -1,0 +1,24 @@
+!!!!!
+%html
+  %head
+    %title Slides
+    %link{:href => "stylesheets/screen.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}
+    %script{:src => "http://code.jquery.com/jquery-1.7.min.js", :type => "text/javascript"}
+    %script{:src => "scripts/webpage.js", :type => "text/javascript"}
+
+%body
+  .slides_frame
+    %ul.slides_container
+      %li
+        %h1 Slide1
+      %li
+        %h1 Slide2
+      %li
+        %h1 Slide3
+      %li
+        %h1 Slide4
+    .slides_controls
+      .slides_next
+        %a(href="#") next
+      .slides_previous
+        %a(href="#") previous
